@@ -18,49 +18,62 @@
 					<a href="Media.html">Media</a>
           <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
 		</nav>
-	</div>
-</header>
-<button onclick="myFunction()">Dark/Light</button>
-  <br>
-<script>
-  //darkmode
-  function darkMode() {
-     var element = document.body;
-     element.classList.toggle("darkmode");
-  }
-  //responsive nav
-  function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-}
-  </script>
-  <br><br><br><br><br><br>
-  <!--TAP TITLE-->
-  <h1>About TAP</h1>
-  <button onclick="darkMode()">Dark/Light</button>
+	
+  <div class="wrapper">
+    <header>
+      <nav>
+        <div class="menu-icon">
+          <i class="fa fa-bars fa-2x"></i>
+        </div>
+        <div class="logo">
+          Devon's Auto Detailing
+        </div>
+        <div class="menu">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div class="content">
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+    </div>
+  </div>
+  <script>
+    //responsive nav
+//Menu toggle-button for small screens
+$(document).ready(function (){
+  $(".menu-icon").on("click", function() {
+    $("nav ul").toggleClass("showing");
+  });
+});
 
-  <p>
-    The TAP program aims to offer a more tech focused education experience for students who are interested in the tech sector. <br><br>
-    Students get the opportunity to be prepared for career opportunies in the technology sector with mentorships, co-ops, internships, placements in NSCC, and a garenteed interview with IBM at the end.
-    <br><br>
-    The following schools are involved with the TAP program;
-    <ul class="schools">
-      <li class="schools">Cole Harbour District High School</li>
-      <li class="schools">JL Ilsley High School</li>
-      <li class="schools">Yarmouth Consolidated Memorial High School</li>
-  </ul>
-  </p>
+//Scrolling Effect for nav
+$(window).on("scroll", function() {
+  if($(window).scrollTop()) {
+    $('nav').addClass('black');
+  } else {
+    $('nav').removeClass('black');
+  }
+});
+    </script>
+    
+
+
+
   <footer>
     <br>
-<a href="https://github.com/W046871822/TAPWebsite">TAP Website GitHub</a>
-<br><a href="https://chd.hrce.ca/">Cole Harbour District High School Website</a>
+<a href="https://github.com/W046871822/TAPWebsite">Devons Auto Detailing Website GitHub</a>
 <br><a href="#">Contact info</a>
+<p>Call or message:</p>
+<a data-global="phone" href="tel:902#######" data-track-event="click" data-track-action="phone_link">902-###-####</a>
+<p>Email:</p>
+<a href="mailto:expressshine@outlook.com" data-track-event="click" data-track-action="email_link">expressshine@outlook.com</a>
 <br><a href="#"></a>
-<br><p>Students who collaborated on this website: Madison Boone, Charlie Cook and Devon Clark.</p>
+<br><p></p>
   </footer>
 	</body>
 </html>
