@@ -1,1 +1,67 @@
+<!doctype html>
+<html>
+<head>
+<link rel="icon" type="image/png" href="TAPimgs/favicon-32x32.png" sizes="32x32" />
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<link rel="stylesheet" href="CSS/TAPWebMain.css">
+<title>About Us</title>
+</head>
+<body>
+	<header>
+    <!--NAV BAR-->
+		<div class="topnav">
+	<img src="TAPimgs/TransTAPLogoSquareDarkCurcuit.png" alt="logo. T" class="Tlogo">
+			<nav>
+          <a href="index.html">Home</a>
+					<a href="About.html">About</a>
+					<a href="Partners.html">Partners</a>
+					<a href="Media.html">Media</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+		</nav>
+	</div>
+</header>
+<button onclick="myFunction()">Dark/Light</button>
+  <br>
+<script>
+  //darkmode
+  function darkMode() {
+     var element = document.body;
+     element.classList.toggle("darkmode");
+  }
+  //responsive nav
+  function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+  </script>
+  <br><br><br><br><br><br>
+  <!--TAP TITLE-->
+  <h1>About TAP</h1>
+  <button onclick="darkMode()">Dark/Light</button>
+
+  <p>
+    The TAP program aims to offer a more tech focused education experience for students who are interested in the tech sector. <br><br>
+    Students get the opportunity to be prepared for career opportunies in the technology sector with mentorships, co-ops, internships, placements in NSCC, and a garenteed interview with IBM at the end.
+    <br><br>
+    The following schools are involved with the TAP program;
+    <ul class="schools">
+      <li class="schools">Cole Harbour District High School</li>
+      <li class="schools">JL Ilsley High School</li>
+      <li class="schools">Yarmouth Consolidated Memorial High School</li>
+  </ul>
+  </p>
+  <footer>
+    <br>
+<a href="https://github.com/W046871822/TAPWebsite">TAP Website GitHub</a>
+<br><a href="https://chd.hrce.ca/">Cole Harbour District High School Website</a>
+<br><a href="#">Contact info</a>
+<br><a href="#"></a>
+<br><p>Students who collaborated on this website: Madison Boone, Charlie Cook and Devon Clark.</p>
+  </footer>
+	</body>
+</html>
 
