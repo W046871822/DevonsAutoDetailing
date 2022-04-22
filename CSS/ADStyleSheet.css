@@ -73,6 +73,17 @@ html, body {
     color: #fff;
     display: none;
   }
+
+
+
+
+
+  footer {
+    background-color: rgb(32, 32, 32);
+    color: #fff;
+    margin-top: 50px;
+    width: 100%;
+  }
   
   /*Responsive design CSS*/
   @media(max-width: 926px) {
