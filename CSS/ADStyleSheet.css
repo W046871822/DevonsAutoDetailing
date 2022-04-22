@@ -75,7 +75,7 @@ html, body {
   }
   
   /*Responsive design CSS*/
-  @media(max-width: 580px) {
+  @media(max-width: 926px) {
     .logo {
       position: fixed;
       top: 0;
