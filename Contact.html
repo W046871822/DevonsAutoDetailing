@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<link rel="stylesheet" href="CSS/ADStyleSheet.css">
+
+<title>Contact</title>
+</head>
+<body>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'>
+//responsive nav
+//Menu toggle-button for small screens
+$(document).ready(function (){
+  $(".menu-icon").on("click", function() {
+    $("nav ul").toggleClass("showing");
+  });
+});
+
+//Scrolling Effect for nav
+$(window).on("scroll", function() {
+  if($(window).scrollTop()) {
+    $('nav').addClass('black');
+  } else {
+    $('nav').removeClass('black');
+  }
+});
+    </script>
+	<header>
+    <!--NAV BAR-->
+  <div class="wrapper">
+    <header>
+      <nav>
+        <div class="menu-icon">
+          <i class="fa fa-bars fa-2x"></i>
+        </div>
+        <div class="logo">
+          Devon's Auto Detailing
+        </div>
+        <div class="menu">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div class="content">
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+    </div>
+  </div>
+    
+
+
+
+  <footer>
+    <br>
+<a href="https://github.com/W046871822/TAPWebsite">Devons Auto Detailing Website GitHub</a>
+<br><p class="FooterHeader">Contact info</p>
+<p>Call or message:</p>
+<a data-global="phone" href="tel:902#######" data-track-event="click" data-track-action="phone_link">902-###-####</a>
+<p>Email:</p>
+<a href="mailto:#########@######.com" data-track-event="click" data-track-action="email_link">#########@######.com</a>
+<br><a href="#"></a>
+<br><p></p>
+  </footer>
+	</body>
+</html>
+
