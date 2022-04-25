@@ -1,6 +1,7 @@
 html, body {
     margin: 0;
     width: 100%;
+    background-color: rgb(244, 240, 236);
   }
   
   body {
@@ -81,6 +82,11 @@ html, body {
     color: #fff;
     margin-top: 50px;
     width: 100%;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
   }
   
   /*Responsive design CSS*/
