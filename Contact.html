@@ -37,10 +37,47 @@
         </div>
       </nav>
     </header>
-    <div class="content">
-      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-    </div>
+    <form action="mailto:madisonboone109@gmail.com?subject=Devon's%20Auto%20Detailing" method="post" enctype="text/plain">
+      <br>
+      <!--email input-->
+      <label for="email">E-mail:  </label><br>
+                <input type="email" id="email" name="email" 
+                placeholder="example@mail.com"
+                required><br>
+      <br>
+      <!--first name input-->
+      <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname" size="10" required><br><br>
+    <!--last name input-->
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname" size="10" required><br><br>
+      <br>
+      <br>
+    
+    <!--How the website was found radio input-->
+      <label for="radio">How did you find our Devons Detailing Service?</label><br>
+    <p> (not required)</p>
+      <input type="radio" id="search" name="where_website_was_found" value="search">
+      <label for="search">By Search</label><br>
+    
+      <input type="radio" id="sharing" name="where_website_was_found" value="sharing">
+      <label for="sharing">It Was Shared With Me</label><br>
+    
+      <input type="radio" id="heard" name="where_website_was_found" value="heard">
+      <label for="heard">Heard About it</label>
+  
+    <!--checkbox to allow followup emails, does'nt actually do anything-->
+    <br><br>
+    
+                <!--allows to type feedback-->
+                <label for="text">Write a message:</label><br>
+                <input type="text" id="custom" name="feedback" rows="10" cols="70">
+                <br><br>
+      
+      <input type="submit" value="Send">
+      <input type="reset" value="Reset">
+    </form>
+    
   </div>
     
 
