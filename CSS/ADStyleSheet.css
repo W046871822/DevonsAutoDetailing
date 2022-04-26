@@ -97,7 +97,17 @@ html, body {
 
   form {
     padding: 30px;
+  }
+  
+  label {
+    font-size: 20px
+  }
+
+  input {
+    text-decoration: none;
     border: none;
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
   }
   
   /*Responsive design CSS*/
