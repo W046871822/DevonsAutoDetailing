@@ -1,6 +1,6 @@
 html, body {
     margin: 0;
-    width: 100%;
+    width: 90%;
     background-color: rgb(244, 240, 236);
   }
   
@@ -9,14 +9,14 @@ html, body {
   }
   
   header {
-    width: 100%;
+    width: 90%;
     height: 60vh;
     background-size: cover;
     background-repeat: no-repeat;
   }
   
   .content {
-    width: 90%;
+    width: 80%;
     margin: 4em auto;
     font-size: 20px;
     line-height: 30px;
@@ -34,7 +34,7 @@ html, body {
   
   nav {
     position: fixed;
-    width: 100%;
+    width: 90%;
     background-color: rgb(32,32,32);
   }
   
