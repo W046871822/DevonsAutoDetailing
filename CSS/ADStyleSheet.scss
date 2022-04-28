@@ -16,26 +16,43 @@ body {
     font-family: 'Quicksand', sans-serif;
   }
 
-  nav { 
-    float: right;
-    ul {
-      list-style: none;
-      margin: 0;
-      padding: 0;
-      li {
+// Navigation 
+nav {
+  float: right;
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    li {
+      float: left;
+      position: relative;
+      a,
+      a:visited {
+        display: block;
+        padding: 0 20px;
+        line-height: $nav-height;
+        background: $nav-background;
+        color: $nav-font-color;
+        text-decoration: none;
+        &:hover {
+          background: $link-hover-color;
+          color: $nav-font-color;
+        }
+        &:not(:only-child):after {
+          padding-left: 4px;
+          content: ' ▾';
+        }
+      } // Dropdown list
+      ul li {
+        min-width: 190px;
         a {
-          &:hover {
-          }
-          &:not(:only-child):after {
-          }
-        } // Dropdown list
-        ul li {
-          a {
-          }
+          padding: 15px;
+          line-height: 20px;
         }
       }
     }
   }
+}
   
 
 
