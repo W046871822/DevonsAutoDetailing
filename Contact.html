@@ -17,26 +17,23 @@
 </head>
 <body>
     
-	<header>
     <!--NAV BAR-->
-  <div class="wrapper">
-    <header>
-      <nav>
-        <div class="menu-icon">
-          <i class="fa fa-bars fa-2x"></i>
-        </div>
-        <div class="logo">
-          Devon's Auto Detailing
-        </div>
-        <div class="menu">
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="Services.html">Services</a></li>
-            <li><a href="#">Contact</a></li>
+     <nav>
+      <div class="nav-mobile">
+        <a id="nav-toggle" href="#!"><span></span></a>
+      </div>
+          <ul class="nav-list">
+            <li><a href="#">Home</a></li>
+            <li><a href="Services.html">Services</a>
+              <ul class="nav-dropdown">
+                <li><a href="#!">Packages</a></li>
+                <li><a href="#!">Add ons</a></li>
+              </ul>
+            </li>
+            <li><a href="Contact.html">Contact</a></li>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
           </ul>
-        </div>
       </nav>
-    </header>
     <form action="mailto:madisonboone109@gmail.com?subject=Devon's%20Auto%20Detailing" method="post" enctype="text/plain">
       <br>
       <!--email input-->
