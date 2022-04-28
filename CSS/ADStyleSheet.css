@@ -1,13 +1,5 @@
-// Navigation Variables
-$content-width: 1000px;
-$breakpoint: 799px;
-$nav-height: 70px;
-$nav-background: rgb(32,32,32);
-$nav-font-color: rgb(244, 240, 236);
-$link-hover-color: #565656;
 
-html{
-body {
+html, body {
     margin: 0;
     background-color: rgb(244, 240, 236);
   }
@@ -16,44 +8,47 @@ body {
     font-family: 'Quicksand', sans-serif;
   }
 
-// Navigation 
 nav {
   float: right;
-  ul {
+}
+
+  nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
-    li {
+  }
+
+  nav ul li {
       float: left;
       position: relative;
-      a,
-      a:visited {
+  }
+
+  nav ul li a a:visited {
         display: block;
         padding: 0 20px;
-        line-height: $nav-height;
-        background: $nav-background;
-        color: $nav-font-color;
+        line-height: 70px;
+        background: rgb(32,32,32);
+        color: rgb(244, 240, 236);
         text-decoration: none;
-        &:hover {
-          background: $link-hover-color;
-          color: $nav-font-color;
+  }
+
+  nav ul li a a:hover {
+          background: #565656;
+          color: rgb(244, 240, 236);
         }
-        &:not(:only-child):after {
+  nav ul li a a:hover:not(:only-child):after {
           padding-left: 4px;
           content: ' ▾';
         }
-      } // Dropdown list
+
       ul li {
         min-width: 190px;
-        a {
+      }
+       ul li a {
           padding: 15px;
           line-height: 20px;
-        }
       }
-    }
-  }
-}
-  
+
 
 
 
@@ -93,13 +88,9 @@ nav {
     padding: 30px;
   }
 
-  input{
-  label{
+  input label{
     text-decoration: none;
     border: none;
     font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 20px;
   }
-  
-}
-}
