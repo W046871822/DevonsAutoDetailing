@@ -118,9 +118,10 @@ html, body {
   }
 
   a {
+    text-decoration: underline;
     color: white;
   }
-  
+
   button {
     text-decoration: none;
     color: white;
