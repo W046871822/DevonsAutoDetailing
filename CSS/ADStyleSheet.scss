@@ -1,3 +1,11 @@
+// Navigation Variables
+$content-width: 1000px;
+$breakpoint: 799px;
+$nav-height: 70px;
+$nav-background: rgb(32,32,32);
+$nav-font-color: rgb(244, 240, 236);
+$link-hover-color: #565656;
+
 html{
 body {
     margin: 0;
@@ -7,6 +15,39 @@ body {
   body {
     font-family: 'Quicksand', sans-serif;
   }
+
+  nav { 
+    float: right;
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      li {
+        a {
+          &:hover {
+          }
+          &:not(:only-child):after {
+          }
+        } // Dropdown list
+        ul li {
+          a {
+          }
+        }
+      }
+    }
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
 
   footer {
     background-color: rgb(32, 32, 32);
@@ -35,10 +76,13 @@ body {
     padding: 30px;
   }
 
-  input, label{
+  input{
+  label{
     text-decoration: none;
     border: none;
     font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 20px;
   }
   
+}
+}
