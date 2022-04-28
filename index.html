@@ -4,44 +4,33 @@
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
 <link rel="stylesheet" href="CSS/ADStyleSheet.css">
 
-
-<!--///////////////////style/////////////////////////-->
-
-<style type="text/css">
-  </style>
-
 <title>Devon's Auto Detailing</title>
 </head>
 <body>
     <!--NAV BAR-->
-    <header>
-      <nav>
-        <div class="menu-icon">
-        </div>
-        <div class="logo">
-          Devon's Auto Detailing
-        </div>
-        <div class="topnav" id="myTopnav">
-          <ul>
+    <nav>
+      <div class="nav-mobile">
+        <a id="nav-toggle" href="#!"><span></span></a>
+      </div>
+          <ul class="nav-list">
             <li><a href="#">Home</a></li>
-            <li><a href="Services.html">Services</a></li>
+            <li><a href="Services.html">Services</a>
+              <ul class="nav-dropdown">
+                <li><a href="#!">Packages</a></li>
+                <li><a href="#!">Add ons</a></li>
+              </ul>
+            </li>
             <li><a href="Contact.html">Contact</a></li>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
           </ul>
-          <i class="fa fa-bars"></i>
-        </div>
       </nav>
     </header>
-    
-    <div class="content">
-      <h1>Home</h1>
+
+
+      <h1></h1>
       <h2>Opening statement</h2>
       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-    </div>
     
-
-
-
   <footer>
     <br>
 <br><p class="FooterHeader">Contact info</p>
@@ -54,17 +43,6 @@
 <a href="https://github.com/W046871822/TAPWebsite">Devons Auto Detailing Website GitHub</a>
 <br><p></p>
   </footer>
-  
-  <script>
-    function myFunction() {
-      var x = document.getElementById("myTopnav");
-      if (x.className === "topnav") {
-        x.className += " responsive";
-      } else {
-        x.className = "topnav";
-      }
-    }
-    </script>
 	</body>
 </html>
 
