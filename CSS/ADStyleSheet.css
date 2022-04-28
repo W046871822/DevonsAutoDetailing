@@ -98,7 +98,6 @@ html, body {
     text-align: right;
     box-sizing: border-box;
     padding: 15px 24px;
-    cursor: pointer;
     color: #fff;
     display: none;
   }
@@ -136,37 +135,4 @@ html, body {
     border: none;
     font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 20px;
-  }
-  
-  /*Responsive design CSS*/
-  @media(max-width: 926px) {
-    .logo {
-      position: fixed;
-      top: 0;
-      margin-top: 16px;
-    }
-    
-    nav ul {
-      max-height: 0px;
-      background: #000;
-    }
-    
-    nav.black ul {
-      background: #000;
-    }
-    
-    .showing {
-      max-height: 20em;
-    }
-  
-    nav ul li {
-      box-sizing: border-box;
-      width: 100%;
-      padding: 24px 0px;
-      text-align: center;
-    }
-    
-    .menu-icon {
-      display: block;
-    }
   }
