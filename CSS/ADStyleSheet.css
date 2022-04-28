@@ -94,16 +94,16 @@ html, body {
     text-decoration: none;
     color: white;
   }
+  button {
+    text-decoration: none;
+    color: white;
+  }
 
   form {
     padding: 30px;
   }
-  
-  label {
-    font-size: 20px
-  }
 
-  input {
+  input, label{
     text-decoration: none;
     border: none;
     font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
