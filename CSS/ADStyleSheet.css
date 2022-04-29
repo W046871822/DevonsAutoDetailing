@@ -44,7 +44,8 @@ nav {
       ul li {
         min-width: 190px;
       }
-       ul li a {
+
+      ul li a {
           padding: 15px;
           line-height: 20px;
       }
