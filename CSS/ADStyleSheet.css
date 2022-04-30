@@ -9,7 +9,9 @@ html, body {
   }
 
 
-
+nav {
+  position: fixed;
+}
   
   .topnav {
     background: rgb(32, 32, 32);
