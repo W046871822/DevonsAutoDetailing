@@ -8,7 +8,7 @@ html, body {
   font-family: "Montserrat", sans-serif;
   }
 
-
+/*Nav*/
 nav {
   position: fixed;
 }
@@ -49,7 +49,7 @@ nav {
     content: "";
     display: block;
     height: 5px;
-    background-color: rgb(32, 32, 32);
+    background-color: rgb(244, 240, 236);
     position: absolute;
     top: 20px;
     width: 0%;
@@ -114,7 +114,7 @@ nav {
 
 
 
-
+/*General*/
 h1 {
   font-family: 'Montserrat', sans-serif;
 }
