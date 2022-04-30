@@ -111,8 +111,19 @@ nav {
     clear: both;
   }
   
+.index_header_img {
+  background: url("");
+  }
 
+.title {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+}
 
+.titlep {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+}
 
 /*General*/
 h1 {
