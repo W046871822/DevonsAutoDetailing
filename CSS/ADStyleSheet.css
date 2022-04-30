@@ -9,7 +9,7 @@ html, body {
   }
 
 
-  
+
   
   .topnav {
     background: rgb(32, 32, 32);
@@ -29,7 +29,7 @@ html, body {
     flex-wrap: nowrap;
   }
   
-  .topnav nav a {
+  .topnav nav ul li a {
     color: rgb(244, 240, 236);
     text-decoration: none;
     text-transform: uppercase;
@@ -54,7 +54,7 @@ html, body {
     transition: all ease-in-out 250ms;
   }
   
-  .topnav nav a:hover::before {
+  .topnav nav ul li a:hover::before {
     width: 100%;
   }
   
