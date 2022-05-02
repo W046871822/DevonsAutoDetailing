@@ -55,7 +55,7 @@ nav {
     background-color: rgb(244, 240, 236);
     position: absolute;
     top: 20px;
-    width: 0%;
+    width: 50px;
     transition: all ease-in-out 250ms;
   }
   
