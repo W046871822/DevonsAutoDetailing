@@ -55,12 +55,12 @@ nav {
     background-color: rgb(244, 240, 236);
     position: absolute;
     top: 20px;
-    width: 50px;
+    width: 0%;
     transition: all ease-in-out 250ms;
   }
-  
+  /*Hover Line after hovered*/
   .topnav nav ul li a:hover::before {
-    width: 100%;
+    width: 80px;
   }
   
   /* Hide the link that should open and close the topnav on small screens */
