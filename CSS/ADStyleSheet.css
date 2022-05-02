@@ -111,17 +111,22 @@ nav {
   }
 
 .title_container{
-  background: rgba(76, 175, 80, 0.3)
+  background: rgba(94, 94, 94, 0.3)
 }
 
 .title {
   font-size: 50px;
   font-weight: 600;
+  text-align: center;
+  top: 45vh;
 }
 
 .titlep {
-  font-size: 20;
+  font-size: 40px;
   font-weight: 400;
+  text-align: center;
+  top: 50vh;
+
 }
 
 /*General*/
