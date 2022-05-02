@@ -111,7 +111,8 @@ nav {
   }
 
 .title_container{
-  background: rgba(94, 94, 94, 0.3)
+  background: rgba(94, 94, 94, 0.3);
+  padding: 10px;
 }
 
 .title {
