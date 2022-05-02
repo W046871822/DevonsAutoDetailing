@@ -111,17 +111,18 @@ nav {
     clear: both;
   }
   
-.index_header_img {
+.index_header {
+  font-family: 'Oswald', sans-serif;
   background: url("");
   }
 
 .title {
-  font-family: 'Oswald', sans-serif;
+  font-size: 50px;
   font-weight: 600;
 }
 
 .titlep {
-  font-family: 'Oswald', sans-serif;
+  font-size: 20;
   font-weight: 400;
 }
 
