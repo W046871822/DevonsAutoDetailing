@@ -25,6 +25,7 @@ nav {
   }
   
   .topnav nav {
+    width: 100%;
     margin: 0;
     padding: 0;
     list-style: none;
@@ -32,6 +33,7 @@ nav {
   }
   
   .topnav nav ul li a {
+    width: 100%;
     color: rgb(244, 240, 236);
     text-decoration: none;
     text-transform: uppercase;
