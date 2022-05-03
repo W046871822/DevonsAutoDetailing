@@ -173,12 +173,14 @@ nav {
 
 /*General*/
 h1 {
+  margin-left: 10%;
   font-family: 'Montserrat', sans-serif;
 }
 
 P {
   text-decoration: none;
   color:#111111;
+  max-width: 80%;
 }
 ul {
   list-style-type: none;
