@@ -48,7 +48,7 @@ nav {
   }
   
   .topnav a:hover {
-    color: rgb(244, 240, 236);
+    color: rgb(255, 255, 255);
   }
   
   /*Hover Line*/
@@ -67,10 +67,14 @@ nav {
     width: 80px;
   }
   
+  
   /* Hide the link that should open and close the topnav on small screens */
   .topnav .icon {
     display: none;
   }
+
+
+
   @media screen and (max-width: 1000px) {
     .topnav a:not(:first-child) {
       display: none;
@@ -152,7 +156,7 @@ nav {
   flex-wrap: wrap;
   justify-content:space-around;
   align-items: stretch;
-  
+
 }
 
 
