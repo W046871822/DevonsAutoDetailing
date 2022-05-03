@@ -154,9 +154,11 @@ nav {
   flex-wrap: no wrap;
   justify-content:space-around;
   align-items: stretch;
-
 }
 
+.item {
+  width: 20%;
+}
 
 
 
