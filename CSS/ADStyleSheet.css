@@ -8,6 +8,10 @@ html, body {
   font-family: "Montserrat", sans-serif;
   }
 
+
+
+
+
 /*Nav*/
 nav {
   position: fixed;
@@ -101,6 +105,11 @@ nav {
     font-size: 24px;
   }
   
+
+
+
+
+/*header*/
 .index_header {
   font-family: 'Oswald', sans-serif;
   width: 100%; 
@@ -131,6 +140,27 @@ nav {
   top: 50vh;
   color: rgb(244, 240, 236);
 }
+
+
+
+
+
+/*flexbox*/
+.container {
+  display: flex; 
+  flex-direction: row; 
+  flex-wrap: wrap;
+  justify-content:space-around;
+  align-items: stretch;
+  
+}
+
+
+
+
+
+
+
 
 /*General*/
 h1 {
@@ -169,6 +199,7 @@ li a {
   }
 
   .FooterHeader {
+    color: rgb(244, 240, 236);
     font-size: 20px;
     font-style: bold;
   }
@@ -193,3 +224,5 @@ li a {
     font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 20px;
   }
+
+  
