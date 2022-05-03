@@ -101,7 +101,9 @@ nav {
     }
   }
   
+
   .logo {
+    background: #323232;
     color: rgb(244, 240, 236);
     font-weight: bold;
     font-size: 24px;
