@@ -104,7 +104,7 @@ nav {
     color: rgb(244, 240, 236);
     font-weight: bold;
     font-size: 24px;
-    z-index: 100;
+    z-index: 10;
   }
   
 
@@ -157,7 +157,7 @@ nav {
 }
 
 .item {
-  width: 100px;
+  width: 300px;
 }
 
 
