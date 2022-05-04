@@ -65,7 +65,7 @@ nav {
   }
   /*Hover Line after hovered*/
   .topnav nav ul li a:hover::before {
-    width: 80px;
+    width: 95px;
   }
   
   
