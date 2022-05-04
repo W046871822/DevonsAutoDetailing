@@ -56,10 +56,10 @@ nav {
   .topnav a::before {
     content: "";
     display: block;
-    height: 5px;
+    height: 2px;
     background-color: rgb(244, 240, 236);
     position: absolute;
-    top: 20px;
+    top: 30px;
     width: 0%;
     transition: all ease-in-out 250ms;
   }
