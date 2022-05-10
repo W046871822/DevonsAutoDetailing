@@ -161,7 +161,7 @@ nav {
 }
 
 .item {
-  width: 300px;
+  width: 20%;
 }
 
 
@@ -180,6 +180,7 @@ P {
   text-decoration: none;
   color:#111111;
   max-width: 80%;
+  padding: 10px;
 }
 ul {
   list-style-type: none;
