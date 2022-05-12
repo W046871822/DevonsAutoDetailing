@@ -134,17 +134,11 @@ nav {
 .title {
   font-family: 'Oswald', sans-serif;
   font-size: 50px;
-  font-weight: 600;
-  text-align: center;
-  top: 45vh;
   color: rgb(244, 240, 236);
 }
 
 .titlep {
   font-size: 40px;
-  font-weight: 400;
-  text-align: center;
-  top: 50vh;
   color: rgb(244, 240, 236);
 }
 
