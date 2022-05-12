@@ -142,6 +142,7 @@ nav {
   font-size: 40px;
   margin: auto;
   color: rgb(244, 240, 236);
+  display: inline-block;
 }
 
 
