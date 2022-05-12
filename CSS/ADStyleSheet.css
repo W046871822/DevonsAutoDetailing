@@ -224,7 +224,10 @@ li a {
 
   button {
     text-decoration: none;
-    color: rgb(244, 240, 236);
+    color: rgb(32, 32, 32);
+    border: none;
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
   }
 
   form {
