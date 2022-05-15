@@ -170,6 +170,7 @@ table {
 }
 table, th, td {
   text-align: left;
+  vertical-align: text-top;
 }
 @media screen and (max-width: 1000px) {
   table, th, td {
