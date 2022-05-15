@@ -75,8 +75,13 @@
       <label for="heard">Heard About it</label>
     <br><br>
     
-    <input name="SurviceChoice" class="visually-hidden" tabindex="-1" autocomplete="off">
+    <label for='user_fax_number'>Fax Number</label>
+    <input name='user[fax_number]' type=checkbox value="1" style="display:none !important" 
+    tabindex="-1" autocomplete="false"/>
+<br>
 
+    <input name="SurviceChoice" class="visually-hidden" tabindex="-1" autocomplete="off">
+<br>
                 <!--allows to type feedback-->
                 <label for="text">Write a message:</label><br>
                 <input type="text" id="custom" name="feedback" rows="10" cols="70">
