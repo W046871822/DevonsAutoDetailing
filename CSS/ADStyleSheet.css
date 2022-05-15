@@ -165,14 +165,16 @@ nav {
 }
 /*table in services*/
 table {
-  max-width: 100%;
+  max-width: 90%;
   overflow: auto
 }
 table, th, td {
   text-align: left;
 }
 @media screen and (max-width: 1000px) {
-
+  table, th, td {
+    display: block;
+  }
 }
                                                                                                                                   
 
