@@ -163,6 +163,14 @@ nav {
 .item {
   height: 40vh;
 }
+/*table in services*/
+table {
+  max-width: 80%;
+  overflow: auto
+}
+table, th, td {
+  text-align: left;
+}
 
                                                                                                                                   
 
