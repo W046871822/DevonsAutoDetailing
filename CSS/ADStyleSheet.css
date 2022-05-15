@@ -166,7 +166,8 @@ nav {
 /*table in services*/
 table {
   max-width: 90%;
-  overflow: auto
+  overflow: auto;
+  padding: 10px;
 }
 table, th, td {
   text-align: left;
