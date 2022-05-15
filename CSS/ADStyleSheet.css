@@ -165,13 +165,15 @@ nav {
 }
 /*table in services*/
 table {
-  max-width: 80%;
+  max-width: 100%;
   overflow: auto
 }
 table, th, td {
   text-align: left;
 }
+@media screen and (max-width: 1000px) {
 
+}
                                                                                                                                   
 
 /*big break*/
@@ -252,5 +254,3 @@ li a {
     font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 20px;
   }
-
-  
