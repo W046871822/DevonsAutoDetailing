@@ -177,14 +177,13 @@ table, th, td {
 
 /*General*/
 h1 {
-  margin-left: 10%;
+  padding: 10px;
   font-family: 'Montserrat', sans-serif;
 }
 
 P {
   text-decoration: none;
   color:#111111;
-  max-width: 80%;
   padding: 10px;
 }
 ul {
