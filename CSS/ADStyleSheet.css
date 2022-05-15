@@ -151,18 +151,6 @@ nav {
 
 
 
-/*flexbox in services*/
-.container {
-  display: flex; 
-  flex-direction: row; 
-  flex-wrap: no wrap;
-  justify-content:space-around;
-  align-items: stretch;
-}
-
-.item {
-  height: 40vh;
-}
 /*table in services*/
 table {
   max-width: 90%;
