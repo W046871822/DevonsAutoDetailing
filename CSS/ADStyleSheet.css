@@ -154,6 +154,7 @@ table {
   max-width: 95%;
   overflow: auto;
   padding: 10px;
+  border: 20px;
 }
 table, th, td {
   text-align: left;
