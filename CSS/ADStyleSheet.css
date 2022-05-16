@@ -185,7 +185,7 @@ table, th, td {
   }
 }
 
-.list ul li{
+.list{
   list-style-type: square;
   background-color: transparent;
   font-weight:normal;
