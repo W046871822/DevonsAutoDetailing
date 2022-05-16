@@ -184,6 +184,12 @@ table, th, td {
     display: block;
   }
 }
+
+.list {
+  list-style-type: square;
+  background-color: transparent;
+  font-style: normal;
+}
                                                                                                                                   
 
 /*big break*/
