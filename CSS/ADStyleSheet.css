@@ -195,7 +195,7 @@ table, th, td {
 /*big break*/
 .offering {
   height: 60vh;
-  transform: skew(-11deg);
+  transform: skewY(-11deg);
   background-color: #525252;
   color: rgb(244, 240, 236);
 }
