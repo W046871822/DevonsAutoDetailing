@@ -193,8 +193,9 @@ table, th, td {
                                                                                                                                   
 
 /*big break*/
-.bigbreak {
+.offering {
   height: 60vh;
+  transform: skew(-11deg);
 }
 
 
