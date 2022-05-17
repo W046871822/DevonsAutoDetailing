@@ -199,7 +199,9 @@ table, th, td {
   background-color: #525252;
   color: rgb(244, 240, 236);
 }
-
+.offering p::before {
+  position: absolute;
+}
 
                                                                                                                                   
 
