@@ -206,7 +206,14 @@ table, th, td {
 /*General*/
 h1 {
   padding: 20px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Oswald', sans-serif;
+}
+
+h2 {
+  font-family: 'Oswald', sans-serif;
+}
+h3 {
+  font-family: 'Oswald', sans-serif;
 }
 
 P {
