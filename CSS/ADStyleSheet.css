@@ -192,16 +192,12 @@ table, th, td {
 }
                                                                                                                                   
 
-/*big break*/
+
 .offering {
-  height: 60vh;
-  transform: skewY(20deg);
   background-color: #525252;
   color: rgb(244, 240, 236);
 }
-.offering p::before {
-  position: absolute;
-}
+
 
                                                                                                                                   
 
