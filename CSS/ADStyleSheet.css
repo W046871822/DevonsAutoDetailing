@@ -196,6 +196,7 @@ table, th, td {
 .offering {
   background-color: #525252;
   color: rgb(244, 240, 236);
+  padding: 20px;
 }
 
 
@@ -211,7 +212,7 @@ h1 {
 P {
   text-decoration: none;
   color:#111111;
-  padding: 20px;
+  padding: 10px;
 }
 
   footer {
