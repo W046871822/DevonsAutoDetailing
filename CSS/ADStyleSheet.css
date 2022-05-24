@@ -179,9 +179,6 @@ table, th, td {
   text-align: left;
   vertical-align: text-top;
 }
-th, td {
-  width: 25%
-}
 @media screen and (max-width: 1000px) {
   table, th, td {
     display: block;
