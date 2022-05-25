@@ -192,9 +192,13 @@ table, th, td {
 }
                                                                                                                                   
 .gtkm img{/*get to know me*/
-width: 20%
+width: 50%
 }
-
+@media screen and (max-width: 1000px) {
+  .gtkm img{/*get to know me*/
+    width: 90%
+    }
+  } 
 
 
 
