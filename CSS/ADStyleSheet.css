@@ -185,14 +185,9 @@ table, th, td {
   }
 }
 
-.list {
-  list-style-type: square;
-  background-color: transparent;
-  font-weight:normal;
-}
                                                                                                                                   
 .gtkm img{/*get to know me*/
-width: 50%
+width: 50%;
 }
 @media screen and (max-width: 1000px) {
   .gtkm img{/*get to know me*/
