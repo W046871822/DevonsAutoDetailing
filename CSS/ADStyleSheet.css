@@ -189,7 +189,7 @@ table, th, td {
 
 @media screen and (max-width: 1000px) {
   .gtkm img{/*get to know me*/
-    height: 90vh;
+    width: 90%;
     }
   } 
 
