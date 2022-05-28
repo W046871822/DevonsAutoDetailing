@@ -188,7 +188,8 @@ table, th, td {
                                                                                                                                   
 
 .gtkm img{
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 @media screen and (max-width: 1000px) {
   .gtkm img{/*get to know me*/
