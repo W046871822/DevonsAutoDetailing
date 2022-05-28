@@ -187,10 +187,6 @@ table, th, td {
 
                                                                                                                                   
 
-.gtkm img{
-  margin-left: auto;
-  margin-right: auto;
-}
 @media screen and (max-width: 1000px) {
   .gtkm img{/*get to know me*/
     height: 90vh;
@@ -230,6 +226,12 @@ P {
   text-decoration: none;
   color:#111111;
   padding: 10px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
   footer {
