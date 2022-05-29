@@ -363,15 +363,15 @@ img {
 }
 
 .slide1 {
-  background-color: rgb(10, 60, 100);
+  background-image: url("imgs/BeforeAfter1.jpg");
 }
 
 .slide2 {
-  background-color: rgb(211, 113, 190);
+  background-color: url("imgs/BeforeAfter2.jpg");
 }
 
 .slide3 {
-  background-color: #cdf;
+  background-color: url("imgs/BeforeAfter3.jpg");
 }
 
 .slide4 {
