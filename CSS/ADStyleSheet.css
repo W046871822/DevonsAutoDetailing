@@ -363,23 +363,23 @@ img {
 }
 
 .slide1 {
-  background-color: #ddd;
+  background-color: rgb(255, 255, 255);
 }
 
 .slide2 {
-  background-color: #fff;
+  background-color: rgb(255, 255, 255);
 }
 
 .slide3 {
-  background-color: #cdf;
+  background-color: rgb(255, 255, 255);
 }
 
 .slide4 {
-  background-color: #dca;
+  background-color: rgb(255, 255, 255);
 }
 
 .slide5 {
-  background-color: #ffc;
+  background-color: rgb(255, 255, 255);
 }
 
 .carousel__skip-link {
