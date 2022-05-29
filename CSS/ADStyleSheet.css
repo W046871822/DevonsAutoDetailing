@@ -343,6 +343,7 @@ img {
 }
 /*yeas*/
 .slider-nav {
+  text-decoration: none;
   align-items: center;
   background-color: #ddd;
   border-radius: 40%;
