@@ -198,17 +198,17 @@ table, th, td {
                                                                                                                                   
 
 
-.offering {
+.darksection {
   background-color: #525252;
   color: rgb(244, 240, 236);
   padding: 20px;
   min-height: 40vh;
 }
 
-.offering table{
+.darksection table{
   width: 100%;
 }
-.offering tr{
+.darksection tr{
   width: 120%;
 }
 
