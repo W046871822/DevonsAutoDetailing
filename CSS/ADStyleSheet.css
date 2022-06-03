@@ -348,6 +348,8 @@ img {
 
 .carousel__nav {
   padding: 1.25rem 0.5rem;
+  text-decoration: none;
+  align-items: center;
 }
 /*yeas*/
 .slider-nav {
@@ -361,7 +363,6 @@ img {
   justify-content: center;
   padding: 0.5rem;
   position: relative;
-  text-decoration: none;
   width: 1.5rem;
 }
 
@@ -372,23 +373,23 @@ img {
 }
 
 .slide1 {
-  background-color: rgb(244, 240, 236);
+  background-color:#525252;
 }
 
 .slide2 {
-  background-color: rgb(244, 240, 236);
+  background-color: #525252;
 }
 
 .slide3 {
-  background-color: rgb(244, 240, 236);
+  background-color: #525252;
 }
 
 .slide4 {
-  background-color: rgb(244, 240, 236);
+  background-color: #525252;
 }
 
 .slide5 {
-  background-color: rgb(244, 240, 236);
+  background-color: #525252;
 }
 
 .carousel__skip-link {
