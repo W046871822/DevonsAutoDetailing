@@ -170,7 +170,6 @@ nav {
 
 /*table in services*/
 table {
-  max-width: 95%;
   overflow: auto;
   padding: 10px;
   border: 20px;
