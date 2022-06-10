@@ -76,7 +76,7 @@ nav {
   .topnav a::before {
     content: "";
     display: block;
-    height: 3px;
+    height: 2.5px;
     background-color: rgb(244, 240, 236);
     position: absolute;
     top: 35px;
