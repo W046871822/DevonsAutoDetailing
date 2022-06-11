@@ -311,6 +311,21 @@ img {
   display: none;
 }
 
+.slidesitem {
+  align-items: center;
+  border-radius: 10px;
+  display: flex;
+  flex-shrink: 0;
+  font-size: 100px;
+  justify-content: center;
+  margin: 0 1rem;
+  position: relative;
+  scroll-snap-align: start;
+  transform: scale(1);
+  transform-origin: center center;
+  transition: transform 0.5s;
+  width: 99%;
+}
 .slidesitem img{
   align-items: center;
   border-radius: 10px;
@@ -324,8 +339,8 @@ img {
   transform: scale(1);
   transform-origin: center center;
   transition: transform 0.5s;
-  width: 60%; 
-  height: 70%; 
+  width: 90%; 
+  height: 100%; 
   object-fit: contain;
 }
 
