@@ -349,7 +349,7 @@ img {
   text-decoration: none;
   align-items: center;
 }
-/*yeas*/
+
 .slider-nav {
   text-decoration: none;
   align-items: center;
@@ -362,12 +362,6 @@ img {
   padding: 0.5rem;
   position: relative;
   width: 1.5rem;
-}
-
-.slider-nav:hover,
-.slider-nav:active {
-  background-color: #000;
-  color: #fff;
 }
 
 .carousel__skip-link {
