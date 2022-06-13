@@ -277,8 +277,12 @@ img {
     padding: 30px;
 
   }
+  
+  .FormTitle {
+    font-size: 50px;
+  }
 
-  input label{
+  input label {
     text-decoration: none;
     border: none;
     font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
