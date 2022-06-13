@@ -232,6 +232,10 @@ P {
   padding: 10px;
 }
 
+a {
+  text-decoration: none;
+}
+
 img {
   display: block;
   margin-left: auto;
