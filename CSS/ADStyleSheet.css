@@ -202,8 +202,7 @@ table, th, td {
   color: rgb(244, 240, 236);
   padding: 20px;
   min-height: 40vh;
-  max-width: 100%;
-  min-width: 90%
+  width: 100%;
 }
 .darksection tr{
   width: 100%;
@@ -339,7 +338,7 @@ img {
   transform: scale(1);
   transform-origin: center center;
   transition: transform 0.5s;
-  width: 99%;
+  width: 32%;
 }
 .slidesitem img{
   align-items: center;
