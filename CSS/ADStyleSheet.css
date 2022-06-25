@@ -208,13 +208,16 @@ th {
 
 .darksection {
   background-color: #525252;
-  color: rgb(244, 240, 236);
   padding: 20px;
   min-height: 40vh;
   width: 100%;
 }
 .darksection tr{
   width: 100%;
+}
+
+.darksection th{
+  width: 500px
 }
 
                                                                                                                                   
