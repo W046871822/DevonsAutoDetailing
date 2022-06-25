@@ -180,7 +180,6 @@ table, th, td {
 th { 
   box-shadow: var(--shd,0 1px 4px rgba(0,0,0,.6));
   background-color: rgb(244, 240, 236);
-  width: 90px;
 }
 
 td h1 {
@@ -213,14 +212,6 @@ td h1 {
   min-height: 40vh;
   width: 100%;
 }
-.darksection tr{
-  width: 100%;
-}
-
-.darksection th{
-  width: 500px
-}
-
                                                                                                                                   
 
 
