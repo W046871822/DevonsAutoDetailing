@@ -173,6 +173,8 @@ table {
   overflow: auto;
   padding: 10px;
   border: 20px;
+  width: 60%;
+  border-spacing: 10%;
 }
 table, th, td {
   text-align: center;
@@ -182,7 +184,7 @@ table, th, td {
 th { 
   box-shadow: var(--shd,0 1px 4px rgba(0,0,0,.6));
   background-color: rgb(244, 240, 236);
-  width: 20%;
+  width: 500px;
 }
 
 @media screen and (max-width: 1000px) {
