@@ -171,10 +171,6 @@ nav {
 /*table in services*/
 table {
   overflow: auto;
-  padding: 10px;
-  border: 20px;
-  width: 60%;
-  color: #111111;
 }
 table, th, td {
   text-align: center;
@@ -185,6 +181,11 @@ th {
   box-shadow: var(--shd,0 1px 4px rgba(0,0,0,.6));
   background-color: rgb(244, 240, 236);
   width: 90px;
+}
+
+td h1 {
+  font-size: 50px;
+  padding: 0px;
 }
 
 @media screen and (max-width: 1000px) {
