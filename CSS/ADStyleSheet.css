@@ -171,6 +171,8 @@ nav {
 /*table in services*/
 table {
   overflow: auto;
+  border-collapse: collapse;
+  width: 50%;
 }
 table, th, td {
   text-align: center;
