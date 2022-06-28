@@ -195,7 +195,11 @@ td h1 {
   }
 }
 
-                                                                                                                                  
+
+/* get to know me*/                                                                                                                                  
+.gtkm {
+  width: 70%;
+}
 
 @media screen and (max-width: 1000px) {
   .gtkm img{/*get to know me*/
