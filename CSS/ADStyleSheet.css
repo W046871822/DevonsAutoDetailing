@@ -171,7 +171,7 @@ nav {
 /*table in services*/
 table {
   overflow: auto;
-  border-collapse: collapse;
+  border-width: 10px;
   width: 50%;
 }
 table, th, td {
