@@ -13,7 +13,7 @@ html, body {
                                                                                                                                       
 
 
-/*Nav*/
+/************NAV************/
 nav {
   position: fixed;
 }
@@ -135,7 +135,7 @@ nav {
                                                                                                                                   
 
 
-/*header*/
+/************header************/
 .index_header {
   font-family: 'Oswald', sans-serif;
   width: 100%; 
@@ -168,7 +168,7 @@ nav {
 
                                                                                                                                   
 
-/*table in services*/
+/************table in services************/
 table {
   overflow: auto;
   border-width: 20px;
@@ -196,7 +196,7 @@ td h1 {
 }
 
 
-/* get to know me*/                                                                                                                                  
+/************ get to know me************/                                                                                                                                  
 .gtkm {
   width: 80%;
   margin-left: auto;
@@ -255,6 +255,7 @@ img {
   margin-right: auto;
 }
 
+/***********footer************/
   footer {
     background-color: rgb(32, 32, 32);
     color: rgb(244, 240, 236);
@@ -282,7 +283,7 @@ img {
     font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 20px;
   }
-
+/************FORM************/
   form {
     margin-left: auto;
     margin-right: auto;
@@ -311,17 +312,16 @@ img {
 
 
 
-/*......................................................*/
-/*......................................................*/
-/*......................................................*/
 /*CAROUSEl IN INDEX*/
 .carousel-indicators {
   margin-left: auto;
   margin-right: auto;
 }
+.container {
+  height: 85vh;
+}
 
-
-
-/*......................................................*/
-/*................end of carousel.......................*/
-/*......................................................*/
+@media screen  and (max-width: 1000px){
+.container{
+  height: 40vh;
+}
