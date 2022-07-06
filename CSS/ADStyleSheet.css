@@ -333,12 +333,3 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
-.carouselslide {
-  height: 85vh;
-}
-
-@media screen  and (max-width: 1000px){
-.carouselslide{
-  height: 40vh;
-}
-}
