@@ -338,6 +338,7 @@ img {
 .carousel-indicators {
   margin-left: auto;
   margin-right: auto;
+  background-color: transparent;
 }
   /* Make the image fully responsive */
   .carousel-inner img {
