@@ -219,7 +219,10 @@ td h1 {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  text-align: justify;
+  text-justify: inter-word;
 }
+
 
 @media screen and (max-width: 1000px) {
   .gtkm img{/*get to know me*/
