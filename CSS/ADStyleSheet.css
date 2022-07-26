@@ -81,7 +81,7 @@ nav {
     background-color: rgb(244, 240, 236);
     position: absolute;
     top: 35px;
-    width: 27ch;
+    width: 0px;
     transition: all ease-in-out 250ms;
   }
   /*Hover Line after hovered*/
