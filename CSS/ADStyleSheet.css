@@ -213,7 +213,6 @@ table, th, td {
 
 th { 
   box-shadow: var(--shd,0 1px 4px rgba(0,0,0,.6));
-  background-color: rgb(244, 240, 236);
 }
 
 td h1 {
