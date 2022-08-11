@@ -191,9 +191,12 @@ nav {
   .flex-container > div > p {
     font-size: 0.4em;
   }
-  .flex-container > div > {
-  font-size: 1.5em;
+  .flex-container > div > h2{
+  font-size: 1.0em;
   }
+  .flex-container > div > h1{
+    font-size: 1.5em;
+    }
 }
 
 
