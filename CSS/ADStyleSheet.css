@@ -305,13 +305,13 @@ img {
     color: rgb(244, 240, 236);
     text-decoration: none;
     font-size: 20px;
-    font-style: bold;
     width: 60px;
   }
 
   .FooterButton {
     background-color: rgb(255, 255, 255);
     color: #111111;
+    font-style: bold;
   }
 
   button {
