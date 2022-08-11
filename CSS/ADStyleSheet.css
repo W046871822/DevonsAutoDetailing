@@ -314,7 +314,8 @@ img {
     color: #111111;
     font-style: bold;
     font-size: 20px;
-    border-radius: 5px;
+    Padding: 10px;
+    border-radius: 2px;
     font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
   }
 
