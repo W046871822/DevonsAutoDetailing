@@ -186,6 +186,7 @@ nav {
 .flex-container > div > p {
   font-size: 12px;
 }
+
 @media screen and (max-width: 1000px) {
   .flex-container > div > p {
     font-size: 0.4em;
