@@ -283,6 +283,7 @@ P {
 }
 
 a {
+  font-family: "Montserrat", sans-serif;
   text-decoration: none;
 }
 
@@ -312,6 +313,7 @@ img {
     background-color: rgb(255, 255, 255);
     color: #111111;
     font-style: bold;
+    border-radius: 5px;
   }
 
   button {
