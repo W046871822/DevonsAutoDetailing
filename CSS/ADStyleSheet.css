@@ -313,7 +313,9 @@ img {
     background-color: rgb(255, 255, 255);
     color: #111111;
     font-style: bold;
+    font-size: 20px;
     border-radius: 5px;
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
   }
 
   button {
