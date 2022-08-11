@@ -301,16 +301,17 @@ img {
     padding: 30px;
   }
 
-  .FooterHeader {
+  .FooterLinks {
     color: rgb(244, 240, 236);
+    text-decoration: none;
     font-size: 20px;
     font-style: bold;
     width: 60px;
   }
 
-  footer a {
-    text-decoration: underline;
-    color: rgb(244, 240, 236);
+  .FooterButton {
+    background-color: rgb(255, 255, 255);
+    color: #111111;
   }
 
   button {
