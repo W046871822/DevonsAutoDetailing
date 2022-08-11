@@ -211,15 +211,6 @@ table, th, td {
   vertical-align: text-top;
 }
 
-th { 
-  box-shadow: var(--shd,0 1px 4px rgba(0,0,0,.6));
-}
-
-td h1 {
-  font-size: 50px;
-  padding: 0px;
-}
-
 @media screen and (max-width: 1000px) {
   table, th, td {
     display: block;
