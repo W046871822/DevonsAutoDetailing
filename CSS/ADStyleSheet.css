@@ -202,6 +202,8 @@ nav {
 
 /************tables************/
 table {
+  margin-right: auto;
+  margin-left: auto;
   overflow: auto;
   border-width: 20px;
   width: 90%;
