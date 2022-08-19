@@ -185,7 +185,7 @@ table, th, td {
 th {
   background-color: rgb(255, 255, 255);
   border-radius: 5px;
-  border: 2px solid;
+  border: 10px solid;
   border-color:#525252;
 }
 
@@ -285,6 +285,10 @@ img {
     Padding: 10px;
     border-radius: 2px;
     font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  footer table, th, tr{
+    background-color: none;
   }
 
   button {
