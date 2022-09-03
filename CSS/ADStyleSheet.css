@@ -189,7 +189,7 @@ th {
   border-color:#323232;
 }
 
-footer > th{
+footer > table > tr > th{
   background-color: rgb(32, 32, 32);
   border-color:rgb(32, 32, 32);
 }
