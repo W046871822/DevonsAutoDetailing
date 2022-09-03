@@ -186,7 +186,11 @@ th {
   background-color: rgb(255, 255, 255);
   border-radius: 5px;
   border: 10px solid;
-  border-color:#525252;
+  border-color:rgb(32, 32, 32);
+}
+
+footer th{
+  background-color: rgb(32, 32, 32);
 }
 
 @media screen and (max-width: 1000px) {
@@ -285,10 +289,6 @@ img {
     Padding: 10px;
     border-radius: 2px;
     font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
-  }
-
-  footer th{
-    background-color: none;
   }
 
   button {
