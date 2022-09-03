@@ -186,11 +186,12 @@ th {
   background-color: rgb(255, 255, 255);
   border-radius: 5px;
   border: 10px solid;
-  border-color:rgb(32, 32, 32);
+  border-color:#323232;
 }
 
 footer th{
   background-color: rgb(32, 32, 32);
+  border-color:rgb(32, 32, 32);
 }
 
 @media screen and (max-width: 1000px) {
