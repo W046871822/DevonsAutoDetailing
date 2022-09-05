@@ -186,7 +186,7 @@ th {
   background-color: rgb(255, 255, 255);
   border-radius: 5px;
   border: 10px solid;
-  border-color:#323232;
+  border-color:#525252;
 }
 
 @media screen and (max-width: 1000px) {
