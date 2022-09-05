@@ -189,11 +189,6 @@ th {
   border-color:#323232;
 }
 
-footer > table > tr > th{
-  background-color: rgb(32, 32, 32);
-  border-color:rgb(32, 32, 32);
-}
-
 @media screen and (max-width: 1000px) {
   table, th, td {
     display: block;
@@ -290,6 +285,11 @@ img {
     Padding: 10px;
     border-radius: 2px;
     font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  .FooterTh {
+    background-color: rgb(32, 32, 32);
+    border-color:rgb(32, 32, 32);
   }
 
   button {
