@@ -175,9 +175,9 @@ table {
   margin-left: auto;
   overflow: auto;
   border-width: 20px;
-  width: 90%;
 }
 table, th, td {
+  width: 90%;
   text-align: center;
   vertical-align: text-top;
 }
