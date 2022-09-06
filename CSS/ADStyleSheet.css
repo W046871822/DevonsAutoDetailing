@@ -287,6 +287,7 @@ img {
     font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
   }
 
+
   button {
     text-decoration: none;
     color: rgb(32, 32, 32);
@@ -294,6 +295,7 @@ img {
     font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 20px;
   }
+
 /************FORM************/
   form {
     margin-left: auto;
@@ -314,11 +316,6 @@ img {
     font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 40px;
   }
-
-
-
-
-
 
 
 
