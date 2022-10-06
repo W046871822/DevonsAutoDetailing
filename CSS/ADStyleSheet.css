@@ -190,11 +190,15 @@ th {
   border-radius: 5px;
   border: 10px solid;
   border-color:#525252;
+  width: 33%
 }
 
 @media screen and (max-width: 1000px) {
   table, th, td {
     display: block;
+  }
+  th{
+    width: 95%;
   }
 }
 
