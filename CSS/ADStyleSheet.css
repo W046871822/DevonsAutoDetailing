@@ -119,6 +119,9 @@ nav {
       display: block;
       text-align: left;
     }
+    .topnav nav ul li a, .logo {
+      font-size: 10px;
+    }
   }
   
 
@@ -164,6 +167,14 @@ nav {
   margin: auto;
   color: rgb(244, 240, 236);
   display: inline-block;
+}
+@media screen and (max-width: 1000px) {
+  .title {
+    font-size: 30px;
+  }
+  .subtitle {
+    font-size: 20px;
+  }
 }
 
 
