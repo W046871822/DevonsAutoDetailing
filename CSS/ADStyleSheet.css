@@ -23,7 +23,6 @@ nav {
   
   .topnav {
     background: #323232;
-    width: 100%;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
@@ -33,7 +32,6 @@ nav {
   }
   
   .topnav nav {
-    width: 100%;
     margin-left: auto;
     margin-right: auto;
     padding: 0;
@@ -104,7 +102,6 @@ nav {
     }
     .topnav a.icon {
       float: right;
-      display: block;
     }
     .topnav.responsive {
       position: relative;
@@ -116,11 +113,10 @@ nav {
     }
     .topnav.responsive a {
       float: none;
-      display: block;
       text-align: left;
     }
     .topnav nav ul li a, .logo {
-      font-size: 10px;
+      font-size: 20px;
     }
   }
   
@@ -168,6 +164,7 @@ nav {
   color: rgb(244, 240, 236);
   display: inline-block;
 }
+
 @media screen and (max-width: 1000px) {
   .title {
     font-size: 30px;
@@ -185,6 +182,7 @@ table {
   overflow: auto;
   border-width: 20px;
 }
+
 table, th, td {
   margin-left: auto;
   margin-right: auto;
@@ -256,6 +254,7 @@ h1 {
 h2 {
   font-family: 'Oswald', sans-serif;
 }
+
 h3 {
   font-family: 'Oswald', sans-serif;
 }
@@ -295,66 +294,14 @@ img {
   }
 
   .FooterButton {
+    text-decoration: none;
     background-color: rgb(255, 255, 255);
     color: #111111;
     font-style: bold;
     font-size: 20px;
     Padding: 10px;
+    border: none;
     border-radius: 2px;
     font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
   }
 
-
-  button {
-    text-decoration: none;
-    color: rgb(32, 32, 32);
-    border: none;
-    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 20px;
-  }
-
-/************FORM************/
-  form {
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    padding: 30px;
-
-  }
-  
-  .FormTitle {  
-    font-family: 'Oswald', sans-serif;
-    font-size: 30px;
-  }
-
-  input label {
-    text-decoration: none;
-    border: none;
-    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 40px;
-  }
-
-
-
-
-/*CAROUSEl IN INDEX*/
-.carousel-indicators {
-  margin-left: auto;
-  margin-right: auto;
-  background-color: transparent;
-}
-  /* Make the image fully responsive */
-  .carousel-inner img {
-    width: 100%;
-    height: 100%;
-  }
-
-  .container {
-    width: 30%
-  }
-  
-  @media screen and (max-width: 500px) {
-    .container {
-      width: 100%
-    }
-  }
