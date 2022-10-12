@@ -37,6 +37,7 @@ nav {
     padding: 0;
     list-style: none;
     flex-wrap: nowrap;
+    width: 100%;
   }
 
   .topnav nav ul li a, .logo {
@@ -88,12 +89,10 @@ nav {
     width: 95%;
   }
   
-  
   /* Hide the link that should open and close the topnav on small screens */
   .topnav .icon {
     display: none;
   }
-
 
 
   @media screen and (max-width: 1000px) {
@@ -117,6 +116,9 @@ nav {
     }
     .topnav nav ul li a, .logo {
       font-size: 20px;
+    }
+    .logo {
+      font-size: 25px;
     }
   }
   
@@ -177,25 +179,21 @@ nav {
 
 /************tables************/
 table {
-  margin-right: auto;
-  margin-left: auto;
   overflow: auto;
   border-width: 20px;
 }
 
 table, th, td {
-  margin-left: auto;
   margin-right: auto;
+  margin-left: auto;
   text-align: center;
   vertical-align: text-top;
 }
 
-th {
-  margin-left: auto;
-  margin-right: auto;
+th { 
   background-color: rgb(255, 255, 255);
   border-radius: 5px;
-  border: 10px solid;
+  border: 5px solid;
   border-color:rgb(255, 255, 255);
   padding: 10px;
   width: 33%;
@@ -206,7 +204,7 @@ th {
     display: block;
   }
   th{
-    width: 95%;
+    width: 90%;
   }
 }
 
