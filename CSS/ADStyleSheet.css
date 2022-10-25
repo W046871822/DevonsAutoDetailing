@@ -182,8 +182,7 @@ table {
 }
 
 table, th, td {
-  margin-right: auto;
-  margin-left: auto;
+  margin: 20px;
   text-align: center;
   vertical-align: text-top;
 }
