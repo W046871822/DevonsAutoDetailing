@@ -179,6 +179,8 @@ nav {
 table {
   overflow: auto;
   border-width: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 table, th, td {
