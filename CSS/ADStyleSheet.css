@@ -157,6 +157,9 @@ th {
   .gtkm img{/*get to know me*/
     width: 90%;
     }
+    aside{
+      display: none;
+    }
   } 
 
 
