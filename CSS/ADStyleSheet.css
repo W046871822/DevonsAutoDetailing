@@ -14,128 +14,55 @@ html, body {
 
 
 /************NAV************/
-nav {
-  position: fixed;
+.topnav {
+  overflow: hidden;
+  background-color: #333;
 }
-  
-  .topnav {
-    background: #323232;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: row;
-    position: fixed;
-    z-index: 10;
-    overflow: hidden;
-  }
-  
-  #menu {
-    display: none;
-  }
-  #menu.visible {
-    display: block;
-  }
 
-  .topnav nav {
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0;
-    list-style: none;
-    flex-wrap: nowrap;
-    width: 100%;
-  }
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
 
-  .topnav nav ul li a, .logo {
-    width: 100%;
-    color: rgb(244, 240, 236);
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 20px;
-    display: inline-block;
-    padding: 10px;
-    position: relative;
-  }
-
-  ul {
-    padding-inline-start: 10px;
-    list-style-type: none;
-    overflow: hidden;
-    background-color: #333333;
-  }
-
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    text-align: center;
-    padding: 16px;
-    text-decoration: none;
-    float: left;
-  }
-
-  .topnav a:hover {
-    color: rgb(255, 255, 255);
-  }
-  
-  /*Hover Line*/
-  .topnav a::before {
-    content: "";
-    display: block;
-    height: 2.5px;
-    background-color: rgb(244, 240, 236);
-    position: absolute;
-    top: 35px;
-    width: 0px;
-    transition: all ease-in-out 250ms;
-  }
-  /*Hover Line after hovered*/
-  .topnav nav ul li a:hover::before {
-    width: 95%;
-  }
-  
-  /* Hide the link that should open and close the topnav on small screens */
-  .topnav .icon {
-    display: none;
-  }
-
-
-  @media screen and (max-width: 1000px) {
-    .topnav a:not(:first-child) {
-      display: none;
-    }
-    .topnav a.icon {
-      float: right;
-    }
-    .topnav.responsive {
-      position: relative;
-    }
-    .topnav.responsive a.icon {
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-    .topnav.responsive a {
-      float: none;
-      text-align: left;
-    }
-    .topnav nav ul li a, .logo {
-      font-size: 16px;
-    }
-    .logo {
-      font-size: 18px;
-    }
-  }
-  
-
-  .logo {
-    background: #323232;
+.topnav a.active {
+  background: #323232;
     color: rgb(244, 240, 236);
     font-weight: bold;
     font-size: 24px;
     z-index: 100;
     padding: 10px;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
   }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
   
 
                                                                                                                                   
