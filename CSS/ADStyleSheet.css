@@ -16,11 +16,7 @@ html, body {
 /************NAV************/
 .topnav {
   overflow: hidden;
-<<<<<<< HEAD
   background-color: rgba(0, 0, 0, 0.84);
-=======
-  background-color: rgba(31, 31, 31, 0.83);
->>>>>>> afb5fd76adebbab2907a2567a102e9900bd61fef
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
@@ -88,7 +84,7 @@ html, body {
   }
 
 .title_container{
-  background: rgba(0, 0, 0, 0.382)
+  background: rgba(0, 0, 0, 0.382);
   padding: 10px;
 }
 
