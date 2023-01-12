@@ -127,7 +127,7 @@ table, th, td {
   vertical-align: text-top;
 }
 
-th { 
+th, td { 
   background-color: rgb(255, 255, 255);
   border-radius: 10px;
   border-color:rgba(255, 255, 255, 0);
@@ -139,7 +139,7 @@ th {
   table, th, td {
     display: block;
   }
-  th{
+  th, td{
     width: 90%;
   }
 }
