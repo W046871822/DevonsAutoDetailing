@@ -235,3 +235,8 @@ img {
     font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
   }
 
+  @media screen and (max-width: 1000px) {
+    .FooterLinks {
+      font-size: 10px;
+    }
+    } 
