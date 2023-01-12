@@ -17,6 +17,7 @@ html, body {
 .topnav {
   overflow: hidden;
   background-color: #333;
+
 }
 
 .topnav a {
@@ -188,6 +189,7 @@ h3 {
 }
 
 P {
+  font-family: "Montserrat", sans-serif;
   color:#111111;
   padding: 10px;
   font-size: 20px;
