@@ -28,6 +28,13 @@ nav {
     overflow: hidden;
   }
   
+  #menu {
+    display: none;
+  }
+  #menu.visible {
+    display: block;
+  }
+
   .topnav nav {
     margin-left: auto;
     margin-right: auto;
