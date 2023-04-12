@@ -132,7 +132,7 @@ th, td {
   border-radius: 10px;
   border-color:rgba(255, 255, 255, 0);
   padding: 10px;
-  width: 33%;
+  width: 20%;
 }
 
 @media screen and (max-width: 1000px) {
