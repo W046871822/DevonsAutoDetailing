@@ -4,7 +4,7 @@
 
 html, body {
     margin: 0;
-    max-width: 90%;
+    max-width: 120%;
     background-color: rgb(244, 240, 236);
   }
   
@@ -152,7 +152,7 @@ th, td {
 
 @media screen and (max-width: 1000px) {
   .gtkm img{/*get to know me*/
-    width: 120%;
+    width: 90%;
     }
     aside{
       display: none;
