@@ -132,7 +132,7 @@ th, td {
   width: 17%;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 600px) {
   table, th, td {
     display: block;
   }
