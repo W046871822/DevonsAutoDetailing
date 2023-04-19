@@ -144,7 +144,7 @@ th, td {
 
 /************ get to know me************/                                                                                                                                  
 .gtkm {
-  width: 90%;
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -158,7 +158,12 @@ th, td {
       display: none;
     }
   } 
-
+  @media screen and (min-width: 1400px) {
+    .gtkm img{/*get to know me*/
+      width: 80%;
+      }
+    } 
+  
 
 
                                                                                                                                   
