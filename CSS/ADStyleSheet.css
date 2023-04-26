@@ -182,7 +182,6 @@ th, td {
 
 /*General*/
 h1 {
-  padding: 20px;
   font-family: 'Oswald', sans-serif;
   font-size: 35px;
   text-align: center;
@@ -199,7 +198,6 @@ h3 {
 p {
   font-family: 'Montserrat', sans-serif;
   color:#111111;
-  padding: 10px;
   font-size: 20px;
 }
 
