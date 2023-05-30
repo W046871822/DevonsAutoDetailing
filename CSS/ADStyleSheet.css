@@ -127,7 +127,6 @@ table, th, td {
 th, td { 
   background-color: rgb(255, 255, 255);
   border-radius: 10px;
-  border-color:rgba(255, 255, 255, 0);
   padding: 10px;
   width: 22%;
 }
