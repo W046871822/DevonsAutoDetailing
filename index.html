@@ -12,7 +12,7 @@
 
 <!--favicon-->
 <link rel="icon" type="image/png" href="imgs/favicon-32x32.png" sizes="32x32">
-
+<!--
 <style>
   .gtco-testimonials {
   position: relative;
@@ -108,7 +108,7 @@
   }
 }
 </style>
-
+-->
 
 <title>Devon's Auto Detailing</title>
 </head>
@@ -168,7 +168,7 @@
 
 
 <!--https://codepen.io/gatoledo1/pen/MWKpLNY-->
-<div class="gtco-testimonials">
+<!--<div class="gtco-testimonials">
   <h2>Testimonials Carousel - Cards Comments</h2>
   <div class="owl-carousel owl-carousel1 owl-theme">
     <div>
@@ -217,6 +217,41 @@
     </div>
   </div>
 </div>
+<script>
+  (function () {
+  "use strict";
+
+  var carousels = function () {
+    $(".owl-carousel1").owlCarousel({
+      loop: true,
+      center: true,
+      margin: 0,
+      responsiveClass: true,
+      nav: false,
+      responsive: {
+        0: {
+          items: 1,
+          nav: false
+        },
+        680: {
+          items: 2,
+          nav: false,
+          loop: false
+        },
+        1000: {
+          items: 3,
+          nav: true
+        }
+      }
+    });
+  };
+
+  (function ($) {
+    carousels();
+  })(jQuery);
+})();
+</script>
+-->
 
 <br><br><br><br>
 <footer>
